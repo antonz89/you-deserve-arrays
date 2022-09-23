@@ -1,5 +1,3 @@
-//-- prompts the user for an array then logs out a boolean 
-//-- indicating whether or not the first item in the 
 
 const prompt = require('prompt-sync')({sigint: true});
 let askArray = JSON.parse(prompt("Enter any array: "));
